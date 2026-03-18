@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Roman Lab1</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            font-size: 5em;
+            font-weight: bold;
+        }
+        .rainbow span {
+            display: inline-block;
+        }
+        /* 给每个字母分配不同的颜色 */
+        .rainbow span:nth-child(1) { color: #FF0000; } /* R */
+        .rainbow span:nth-child(2) { color: #FF7F00; } /* o */
+        .rainbow span:nth-child(3) { color: #FFFF00; } /* m */
+        .rainbow span:nth-child(4) { color: #00FF00; } /* a */
+        .rainbow span:nth-child(5) { color: #0000FF; } /* n */
+        .rainbow span:nth-child(6) { color: #4B0082; } /* 空格（设为深色，几乎看不见，或可以保留为黑色） */
+        .rainbow span:nth-child(7) { color: #9400D3; } /* L */
+        .rainbow span:nth-child(8) { color: #FF1493; } /* a */
+        .rainbow span:nth-child(9) { color: #00CED1; } /* b */
+        .rainbow span:nth-child(10) { color: #FF4500; } /* 1 */
+    </style>
+</head>
+<body>
+    <div class="rainbow">
+        <span>R</span>
+        <span>o</span>
+        <span>m</span>
+        <span>a</span>
+        <span>n</span>
+        <span> </span> <!-- 空格用 &nbsp; 确保宽度 -->
+        <span>L</span>
+        <span>a</span>
+        <span>b</span>
+        <span>1</span>
+    </div>
+</body>
+</html>
